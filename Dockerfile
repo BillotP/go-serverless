@@ -6,5 +6,5 @@ go \
 make \
 nodejs \
 npm
-RUN npm i -g serverless
+RUN npm i -g serverless@2.64.1
 ENTRYPOINT [ "/bin/bash" ]
